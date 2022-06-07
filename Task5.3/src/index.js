@@ -1,6 +1,6 @@
-//install nodemon and express
-const express=require("express")
-const router = require("./routes/controller").router;
+
+const express = require('express');
+const router = require('./routes/controller').router;
 //console.log(router)
 //console.log(express);
 const app=express();

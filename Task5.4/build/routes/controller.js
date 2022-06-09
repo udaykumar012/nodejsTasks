@@ -3,15 +3,15 @@
 var express = require("express"); //console.log(express);
 
 
-var getUser = require("./getUser").getUser;
+var getUser = require("../services/getUser").getUser;
 
-var getAutoSuggestUser = require("./getAutoSuggestUser").getAutoSuggestUser;
+var getAutoSuggestUser = require("../services/getAutoSuggestUser").getAutoSuggestUser;
 
-var saveUser = require("./saveUser").saveUser;
+var saveUser = require("../services/saveUser").saveUser;
 
-var updateUser = require("./updateUser").updateUser;
+var updateUser = require("../services/updateUser").updateUser;
 
-var deleteUser = require("./deleteUser").deleteUser;
+var deleteUser = require("../services/deleteUser").deleteUser;
 
 var router = express.Router(); //console.log(getUser)
 

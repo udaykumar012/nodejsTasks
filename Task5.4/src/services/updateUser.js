@@ -1,5 +1,5 @@
 //const users = require("../db/data").User;
-const User=require("../db/UserModel").User
+const User=require("../Models/UserModel").User
 const Joi = require("joi");
 const schema = Joi.object({
     id: Joi.number().integer().required(),

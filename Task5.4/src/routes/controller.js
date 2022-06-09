@@ -1,10 +1,10 @@
 const express=require("express")
 //console.log(express);
-const getUser=require("./getUser").getUser;
-const getAutoSuggestUser =require("./getAutoSuggestUser").getAutoSuggestUser;
-const saveUser=require("./saveUser").saveUser;
-const updateUser=require("./updateUser").updateUser;
-const deleteUser=require("./deleteUser").deleteUser;
+const getUser=require("../services/getUser").getUser;
+const getAutoSuggestUser =require("../services/getAutoSuggestUser").getAutoSuggestUser;
+const saveUser=require("../services/saveUser").saveUser;
+const updateUser=require("../services/updateUser").updateUser;
+const deleteUser=require("../services/deleteUser").deleteUser;
 const router = express.Router();
 //console.log(getUser)
 router.get("/getUser/:id", getUser);

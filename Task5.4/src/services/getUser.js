@@ -1,6 +1,6 @@
 //const users = require("../db/data").User;
 //console.log(users)
-const User=require("../db/UserModel").User
+const User=require("../Models/UserModel").User
 const getUser =async (req, res) => {
     const id = req.params.id;
     //const index = users.findIndex((e) => e.id == id);
